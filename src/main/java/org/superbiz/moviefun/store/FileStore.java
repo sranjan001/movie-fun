@@ -1,12 +1,12 @@
-package org.superbiz.moviefun;
+package org.superbiz.moviefun.store;
 
 import org.springframework.stereotype.Component;
+import org.superbiz.moviefun.Blob;
 
 import java.io.*;
 import java.util.Optional;
 import static java.lang.String.format;
 
-@Component
 public class FileStore implements BlobStore {
 
     @Override

@@ -1,4 +1,6 @@
-package org.superbiz.moviefun;
+package org.superbiz.moviefun.store;
+
+import org.superbiz.moviefun.Blob;
 
 import java.io.IOException;
 import java.util.Optional;
